@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  background-image: url("background.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
+
+#container {
+  margin: 0 auto; }
+
+header {
+  display: flex;
+  flex-wrap: wrap; }
+
+h1 {
+  font-family: "Rock Salt", cursive;
+  color: white;
+  margin: auto;
+  padding: 20px; }
+
+nav {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  opacity: 0.8; }
+
+.button {
+  font-family: "Rock Salt", cursive;
+  color: black;
+  width: 120px;
+  height: 80px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0; }
+
+.button:hover {
+  color: white;
+  border-radius: 15px;
+  background-color: black;
+  transition: all 0.2s; }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.background {
+  width: 280px;
+  background-color: black;
+  margin-bottom: 10px; }
+
+a {
+  width: 260px; }
+
+img {
+  width: 270px;
+  height: 270px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+img:hover {
+  background-color: grey;
+  transition: all 0.3s;
+  opacity: 0.2; }
+
+span {
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  color: #fff;
+  font-family: "Rock Salt", cursive; }
+
+span:hover {
+  color: black;
+  background-color: white;
+  transition: all 0.5s; }
+
+p {
+  font-family: "Rock Salt", cursive;
+  font-size: 12px;
+  color: white;
+  font-size: 0.9em;
+  padding: 15px;
+  margin: 0 auto; }
+
+footer {
+  color: white;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+@media (max-width: 979px) and (min-width: 421px) {
+  .background {
+    width: 280px;
+    height: 280px; }
+
+  a {
+    display: flex;
+    width: 100%; }
+
+  iframe {
+    display: inline-block;
+    width: 520px;
+    height: 270px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px; }
+
+  span {
+    display: none; }
+
+  p {
+    display: none; } }
+@media (max-width: 420px) {
+  .background {
+    width: 280px;
+    height: 280px; }
+
+  a {
+    display: flex;
+    width: 100%; }
+
+  iframe {
+    display: inline-block;
+    width: 520px;
+    height: 270px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px; }
+
+  span {
+    display: none; }
+
+  p {
+    display: none; }
+
+  img {
+    min-width: 270px;
+    min-height: 270px; }
+
+  .button {
+    font-size: 1.3em;
+    width: 60px; } }
